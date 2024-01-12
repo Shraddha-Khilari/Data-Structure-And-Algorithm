@@ -1,0 +1,25 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class Ls {
+
+	public static void main(String[] args) {
+	int arr[] = {11,44,33,77,22,99,66,88};
+	
+	System.out.println("Enter Key to be Searched : ");
+	Scanner sc = new Scanner(System.in);
+	
+	int key = sc.nextInt();
+	int result = LinearSearch(arr,arr.length,key);
+	
+	if (result != -1)
+		
+		System.out.println("Key is found " + result + "index");
+	else 
+		System.out.println("Key is not found");
+
+	sc.close();
+	}
+
+}
