@@ -1,0 +1,27 @@
+package com.sunbeam;
+
+import java.util.Arrays;
+
+public class MergeSortMain {
+	
+	public static void mergeSort(int[] arr, int left, int right) {
+		
+		
+		
+		int size = right-left+1;
+		int temp []= new int[size];
+				int i = left, j= mi+1,k=0;
+	}
+
+
+	public static void main(String[] args) {
+		
+		int arr[]= {6,1,9,3,7,2,8,4,5};
+		
+		System.out.println("before sort: "+Arrays.toString(arr));
+		 mergeSort(arr,0,arr.length-1);
+		System.out.println("After sort: "+Arrays.toString(arr));
+	}
+
+	
+}

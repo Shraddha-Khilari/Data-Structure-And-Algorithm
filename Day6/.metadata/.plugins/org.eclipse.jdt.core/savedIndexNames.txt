@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/home/sunbeam/Documents/DSA practice/Day6/.metadata/.plugins/org.eclipse.jdt.core
+991169508.index
+4031432919.index
+2273148122.index
+1865797976.index
